@@ -1,0 +1,18 @@
+.button {
+  display: block;
+  padding: 3px 7px;
+  font-size: 15px;
+  border-radius: 5px;
+  background-color: rgba(226, 223, 223, 0.747);
+  margin-right: 10px;
+}
+
+.button:hover,
+.button:active {
+  background-color: rgb(157, 157, 175);
+  cursor: pointer;
+}
+
+.button_list {
+  display: inline-flex;
+}
